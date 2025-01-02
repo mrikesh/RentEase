@@ -17,4 +17,9 @@ export const routes = [
         name: 'payments',
         component: () => import('../views/admin/Payments.vue'),
     },
+    {
+        path: '/profile',
+        name: 'profile',
+        component: () => import('../views/admin/Profile.vue'),
+    },
 ]

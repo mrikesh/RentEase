@@ -8,7 +8,7 @@ const props = defineProps({
 
 
 <template>
-  <div class="border border-gray-300 w-80 rounded-sm mb-3">
-    <input type="number" :placeholder="props.placeholder" class="w-full p-2">
+  <div class="border border-gray-300 w-[238.26px] rounded-sm mb-3">
+    <input type="number" :placeholder="props.placeholder" class="w-[238.26px] p-2">
   </div>
 </template>

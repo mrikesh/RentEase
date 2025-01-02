@@ -1,7 +1,12 @@
 <script setup>
 
+import BillCreate from "@/components/admin/BillCreate.vue";
 </script>
 
 <template>
-  Users
+  <div>
+    Users
+  </div>
+
+  <BillCreate />
 </template>

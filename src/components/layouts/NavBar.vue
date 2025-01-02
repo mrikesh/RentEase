@@ -4,7 +4,7 @@ import chevronDown from "@/assets/svg/chevron_down.svg"
 import avatarIcon from "@/assets/svg/avatarIcon.svg"
 import logoutIcon from "@/assets/svg/logoutIcon.svg"
 
-const toggleDropdown = ref(true);
+const toggleDropdown = ref(false);
 
 const profileDropdown = () => {
   toggleDropdown.value = !toggleDropdown.value;
@@ -23,7 +23,7 @@ const profileDropdown = () => {
         <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="" class="w-8 h-8 object-cover">
         <img :src="chevronDown" alt="" class="absolute right-0 bottom-0 rounded-full w-3 h-3 bg-white">
 
-        <div class="absolute top-12 right-0 w-60 p-3 border border-gray-200 rounded-md shadow-md" v-if="toggleDropdown" >
+        <div class="absolute top-12 right-0 w-60 p-3 border border-gray-200 rounded-md shadow-md bg-white z-10" v-if="toggleDropdown" >
           <div>
             <div class="flex justify-center items-center mb-2 p-2">
               <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="" class="w-[72px] h-[72px] object-cover rounded-full">
